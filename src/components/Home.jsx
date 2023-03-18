@@ -58,7 +58,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <i className="fab fa-instagram fa-lg" />
+                          <i className="fab fa-instagram fa-xl" />
                         </a>
                       </li>
                       <li className="social-icons-tiktok">
@@ -67,7 +67,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <i className="fa-brands fa-tiktok fa-lg" />
+                          <i className="fa-brands fa-tiktok fa-xl" />
                         </a>
                       </li>
                     </ul>
