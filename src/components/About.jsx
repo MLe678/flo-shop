@@ -30,7 +30,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           {/* contact details */}
           <div className="justify-content-center text-center">
             <p className={"text-2 mb-4 " + (darkTheme ? "text-light" : "")}>
-              My name is FredyFlo, and I am a skilled barber with 20 years of
+              My name is FredyFlo, and I am a barber with 20+ years of
               experience. I love using my creativity and attention to detail to
               help my clients look and feel their best. As a barber, I take
               pride in delivering quality haircuts, shaves, and grooming
