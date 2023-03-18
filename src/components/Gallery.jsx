@@ -5,11 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
+import "swiper/css/navigation";
 
 import "../sass/stylesheet.scss";
 
 // import required modules
-import { EffectCards } from "swiper";
+import { Navigation, Keyboard } from "swiper";
 
 export default function Gallery({ classicHeader, darkTheme }) {
   return (
@@ -43,96 +44,105 @@ export default function Gallery({ classicHeader, darkTheme }) {
           {/* contact details */}
           <>
             <Swiper
-              effect={"cards"}
+              keyboard={true}
+              navigation={true}
+              //effect={"cards"}
               grabCursor={true}
               loop={true}
-              style={{ height: 350, width: 250 }}
-              modules={[EffectCards]}
+              style={{
+                height: 350,
+                width: 400,
+                "--swiper-navigation-color": "#fff",
+              }}
+              modules={[Navigation, Keyboard]}
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="images/gallery/cut01.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut01.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut02.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut02.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut03.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut03.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut04.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut04.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut05.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut05.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut06.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut06.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut08.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut08.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut09.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut09.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut10.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut10.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut11.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut11.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut12.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut12.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut17.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut17.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut18.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut18.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut19.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut19.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut20.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut20.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut21.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut21.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut22.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut22.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut23.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut23.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut24.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut24.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut25.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut25.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut26.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut26.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut27.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut27.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut28.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut28.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut29.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut29.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut30.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut30.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut31.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut31.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut32.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut32.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/gallery/cut33.jpg" alt="Cut" />
+                <img src="images/galleryhq/cut33.jpg" alt="Cut" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="images/galleryhq/cut34.jpg" alt="Cut" />
               </SwiperSlide>
             </Swiper>
           </>
