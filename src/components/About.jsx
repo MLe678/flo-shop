@@ -36,11 +36,13 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               pride in delivering quality haircuts, shaves, and grooming
               services to all of my clients. I am always looking to stay on top
               of the latest trends and techniques in the industry, and I am
-              constantly learning new skills to improve my craft. When I'm not
-              working, I enjoy documentries, learning about herbal medicine,
-              watching my nephew play soccer, and spending time with my family
-              and friends. Thank you for your support and taking the time to
-              learn more about me!
+              constantly learning new skills to improve my craft.
+              <br />
+              <br />
+              When I'm not working, I enjoy documentries, learning about herbal
+              medicine, watching my nephew play soccer, and spending time with
+              my family and friends. Thank you for your support and taking the
+              time to learn more about me!
             </p>
             <div className="image-container">
               <img src="/images/profile.png" alt="logo" />
