@@ -5,8 +5,13 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "V.I.P",
-      desc: "Hair cut, shampoo, conditioner , also a leave in conditioner, hot towel with a facial cleanse with moisturizer",
+      desc: "Hair cut, shampoo, conditioner , hot towel with moisturizing facial cleanse",
       icon: "fas fa-star",
+    },
+    {
+      name: "Haircut + Color",
+      desc: "Description text",
+      icon: "fas fa-palette",
     },
     {
       name: "Haircut + Design",
@@ -21,11 +26,6 @@ const Services = ({ classicHeader, darkTheme }) => {
     {
       name: "Haircut + Beard",
       desc: "Hot Towel , Deep Cleanse (facial)",
-      icon: "fas fa-bolt",
-    },
-    {
-      name: "Facial Cleanse",
-      desc: "Description text",
       icon: "fas fa-bolt",
     },
     {
@@ -44,9 +44,9 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fas fa-child",
     },
     {
-      name: "Cut + Color",
-      desc: "Description text",
-      icon: "fas fa-child",
+      name: "Facial",
+      desc: "Deep Facial Cleanse with Extractor",
+      icon: "fas fa-bolt",
     },
   ];
 

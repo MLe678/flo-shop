@@ -179,7 +179,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                   target="_self"
                   rel="noopener noreferrer"
                 >
-                  <b>💈 Book Now</b>
+                  💈 Book Now
                 </a>
               </div>
             </div>

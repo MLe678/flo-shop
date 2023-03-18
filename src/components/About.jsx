@@ -30,25 +30,17 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           {/* contact details */}
           <div className="justify-content-center text-center">
             <p className={"text-2 mb-4 " + (darkTheme ? "text-light" : "")}>
-              I am not your average barber!! I don’t have awards to show. All I
-              have is my word. My work ethic, Respect, Love and Loyalty drive
-              me. My clients are selected few and well Respected, I have found
-              love and passion for what I do!! Helping people feel good, look
-              good, and be good, and loyalty has been the gift!!! Protecting my
-              peace, and attracting positivity has been my mission. So if you
-              get the chance to sit in my chair, you going to find out what I ‘m
-              talking about !!!
-              <br />
-              <br /> ⚠️ It is strongly recommended to make your appointment at
-              least a day ahead of time to insure a spot at your convenient time
-              <br />
-              <br />
-              ❗️ BLOWOUTS, MOHAWKS,TAPE UPS, FADES,EYEBROWS,DESIGNS,BEARD-SKIN,
-              FADES,CEASER CUTS,MiLiTARY CUTS, COMB OVERs S/O to all my clients
-              that stuck with me through my lost times
-              <br />
-              <br />
-              <br />
+              Hi there, my name is FredyFlo, and I am a skilled barber with 20
+              years of experience. I love using my creativity and attention to
+              detail to help my clients look and feel their best. As a barber, I
+              take pride in delivering quality haircuts, shaves, and grooming
+              services to all of my clients. I am always looking to stay on top
+              of the latest trends and techniques in the industry, and I am
+              constantly learning new skills to improve my craft. When I'm not
+              working, I enjoy documentries, learning about herbal medicine,
+              watching my nephew play soccer, and spending time with my family
+              and friends. Thanks for taking the time to learn a little bit
+              about me!
             </p>
             <div className="image-container">
               <img src="/images/profile.png" alt="logo" />

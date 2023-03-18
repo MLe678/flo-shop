@@ -51,15 +51,21 @@ export default function Gallery({ classicHeader, darkTheme }) {
               loop={true}
               freeMode={true}
               style={{
-                height: 350,
-                width: 400,
+                height: 300,
+                width: 300,
                 "--swiper-navigation-color": "#fff",
               }}
               modules={[Navigation, Keyboard, FreeMode]}
               className="mySwiper"
             >
               <SwiperSlide>
+                <img src="images/galleryhq/cut00.jpg" alt="Cut" />
+              </SwiperSlide>
+              <SwiperSlide>
                 <img src="images/galleryhq/cut01.jpg" alt="Cut" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="images/galleryhq/cut02.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut03.jpg" alt="Cut" />
@@ -72,6 +78,9 @@ export default function Gallery({ classicHeader, darkTheme }) {
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut06.jpg" alt="Cut" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="images/galleryhq/cut07.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut08.jpg" alt="Cut" />
@@ -132,6 +141,9 @@ export default function Gallery({ classicHeader, darkTheme }) {
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut32.jpg" alt="Cut" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="images/galleryhq/cut33.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut34.jpg" alt="Cut" />
