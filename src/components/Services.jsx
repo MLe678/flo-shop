@@ -24,7 +24,7 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fas fa-bolt",
     },
     {
-      name: "Haircut + Eyebrows",
+      name: "Facial Cleanse",
       desc: "Description text",
       icon: "fas fa-bolt",
     },
@@ -44,7 +44,7 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fas fa-child",
     },
     {
-      name: "Kids",
+      name: "Cut + Color",
       desc: "Description text",
       icon: "fas fa-child",
     },
