@@ -19,12 +19,12 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fas fa-scissors",
     },
     {
-      name: "Haircut + Beard + Eyebrows",
+      name: "Haircut + Beard",
       desc: "Hot Towel , Deep Cleanse (facial)",
       icon: "fas fa-bolt",
     },
     {
-      name: "Haircut + Beard",
+      name: "Haircut + Eyebrows",
       desc: "Hot Towel , Deep Cleanse (facial)",
       icon: "fas fa-bolt",
     },
