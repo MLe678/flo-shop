@@ -170,7 +170,11 @@ const ClassicHeader = ({ handleNavClick }) => {
             </div>
           </div>
 
-          <div className="col-auto col-lg-2 d-flex justify-content-end">
+          <div
+            className={
+              "text-2 text-white col-auto col-lg-2 d-flex  justify-content-end align-self-center"
+            }
+          >
             <div className="header-right">
               <div className="header-btn">
                 <a
