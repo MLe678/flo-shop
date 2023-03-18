@@ -5,7 +5,7 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "V.I.P",
-      desc: "Hair cut, shampoo, conditioner , hot towel with moisturizing facial cleanse",
+      desc: "Haircut, shampoo, conditioner , hot towel with moisturizing facial cleanse",
       icon: "fas fa-star",
     },
     {
@@ -46,7 +46,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     {
       name: "Facial",
       desc: "Deep Facial Cleanse with Extractor",
-      icon: "fas fa-bolt",
+      icon: "fas fa-droplet",
     },
   ];
 

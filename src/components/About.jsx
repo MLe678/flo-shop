@@ -30,17 +30,17 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           {/* contact details */}
           <div className="justify-content-center text-center">
             <p className={"text-2 mb-4 " + (darkTheme ? "text-light" : "")}>
-              Hi there, my name is FredyFlo, and I am a skilled barber with 20
-              years of experience. I love using my creativity and attention to
-              detail to help my clients look and feel their best. As a barber, I
-              take pride in delivering quality haircuts, shaves, and grooming
+              My name is FredyFlo, and I am a skilled barber with 20 years of
+              experience. I love using my creativity and attention to detail to
+              help my clients look and feel their best. As a barber, I take
+              pride in delivering quality haircuts, shaves, and grooming
               services to all of my clients. I am always looking to stay on top
               of the latest trends and techniques in the industry, and I am
               constantly learning new skills to improve my craft. When I'm not
               working, I enjoy documentries, learning about herbal medicine,
               watching my nephew play soccer, and spending time with my family
-              and friends. Thanks for taking the time to learn a little bit
-              about me!
+              and friends. Thank you for your support and taking the time to
+              learn more about me!
             </p>
             <div className="image-container">
               <img src="/images/profile.png" alt="logo" />
