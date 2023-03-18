@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "../sass/stylesheet.scss";
 
 // import required modules
-import { Navigation, Keyboard } from "swiper";
+import { Navigation, Keyboard, FreeMode } from "swiper";
 
 export default function Gallery({ classicHeader, darkTheme }) {
   return (
@@ -49,19 +49,17 @@ export default function Gallery({ classicHeader, darkTheme }) {
               //effect={"cards"}
               grabCursor={true}
               loop={true}
+              freeMode={true}
               style={{
                 height: 350,
                 width: 400,
                 "--swiper-navigation-color": "#fff",
               }}
-              modules={[Navigation, Keyboard]}
+              modules={[Navigation, Keyboard, FreeMode]}
               className="mySwiper"
             >
               <SwiperSlide>
                 <img src="images/galleryhq/cut01.jpg" alt="Cut" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="images/galleryhq/cut02.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut03.jpg" alt="Cut" />
@@ -127,9 +125,6 @@ export default function Gallery({ classicHeader, darkTheme }) {
                 <img src="images/galleryhq/cut28.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="images/galleryhq/cut29.jpg" alt="Cut" />
-              </SwiperSlide>
-              <SwiperSlide>
                 <img src="images/galleryhq/cut30.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
@@ -137,9 +132,6 @@ export default function Gallery({ classicHeader, darkTheme }) {
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut32.jpg" alt="Cut" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="images/galleryhq/cut33.jpg" alt="Cut" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="images/galleryhq/cut34.jpg" alt="Cut" />

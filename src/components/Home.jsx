@@ -44,6 +44,33 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     <a href="tel: +1 404-750-5652">
                       <b>404-750-5652</b>
                     </a>
+                    <br />
+                    <br />
+                    <ul
+                      className={
+                        "social-icons justify-content-center justify-content-md " +
+                        (darkTheme ? "social-icons-muted" : "")
+                      }
+                    >
+                      <li className="social-icons-instagram">
+                        <a
+                          href="http://www.instagram.com/fredyfloatl"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fab fa-instagram fa-lg" />
+                        </a>
+                      </li>
+                      <li className="social-icons-tiktok">
+                        <a
+                          href="https://www.tiktok.com/@fredyfloatl"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fa-brands fa-tiktok fa-lg" />
+                        </a>
+                      </li>
+                    </ul>
                   </p>
                 </p>
                 <a

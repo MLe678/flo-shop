@@ -30,10 +30,22 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           {/* contact details */}
           <div className="justify-content-center text-center">
             <p className={"text-2 mb-4 " + (darkTheme ? "text-light" : "")}>
-              Hi I am Fredy. This is section about me. Hi I am Fredy. This is
-              section about me.Hi I am Fredy. This is section about me.Hi I am
-              Fredy. This is section about me. Hi I am Fredy. This is section
-              about me.Hi I am Fredy. This is section about me.
+              I am not your average barber!! I don’t have awards to show. All I
+              have is my word. My work ethic, Respect, Love and Loyalty drive
+              me. My clients are selected few and well Respected, I have found
+              love and passion for what I do!! Helping people feel good, look
+              good, and be good, and loyalty has been the gift!!! Protecting my
+              peace, and attracting positivity has been my mission. So if you
+              get the chance to sit in my chair, you going to find out what I ‘m
+              talking about !!!
+              <br />
+              <br /> ⚠️ It is strongly recommended to make your appointment at
+              least a day ahead of time to insure a spot at your convenient time
+              <br />
+              <br />
+              ❗️ BLOWOUTS, MOHAWKS,TAPE UPS, FADES,EYEBROWS,DESIGNS,BEARD-SKIN,
+              FADES,CEASER CUTS,MiLiTARY CUTS, COMB OVERs S/O to all my clients
+              that stuck with me through my lost times
               <br />
               <br />
               <br />

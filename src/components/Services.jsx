@@ -97,7 +97,9 @@ const Services = ({ classicHeader, darkTheme }) => {
                         {service.name}
                       </h3>
                       <p
-                        className={"mb-0 " + (darkTheme ? "text-white-50" : "")}
+                        className={
+                          "mb-0 " + (darkTheme ? "text-white-50 text-2" : "")
+                        }
                       >
                         {service.desc}
                       </p>
