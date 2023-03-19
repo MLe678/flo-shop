@@ -31,9 +31,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
           {/* contact details */}
           <div className="justify-content-center text-center">
             <p className={"mb-3 text-3 " + (darkTheme ? "text-white" : "")}>
-              Located inside
-              <a href="https://salonlofts.com/mister_flo"> Salon Lofts</a> @
-              Loft #15
+              Located inside Salon Lofts @ Loft #15
               <br />
             </p>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
@@ -45,16 +43,26 @@ const Contact = ({ classicHeader, darkTheme }) => {
               </strong>
               <br />
             </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
+            <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
               <a href="tel: +1 404-750-5652">
                 <b>404-750-5652</b>
               </a>
+              <br />
+              <br />
+              <span className="text-primary text-4 me-2">
+                <i className="fas fa-envelope" />
+              </span>
+              <a href="mailto:fredyflo@misterfloshop.com">
+                fredyflo@misterfloshop.com
+              </a>
+              <br />
+              <br />
             </p>
             <p></p>
-            <br />
+
             <ul
               className={
                 "social-icons justify-content-center justify-content-md " +
