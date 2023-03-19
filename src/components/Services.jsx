@@ -5,7 +5,7 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "V.I.P",
-      desc: "Haircut, shampoo, conditioner , hot towel with moisturizing facial cleanse",
+      desc: "Haircut, shampoo, conditioner, hot towel with moisturizing facial cleanse",
       icon: "fas fa-star",
     },
     {
@@ -15,27 +15,27 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Haircut + Design",
-      desc: "Hot Towel , Deep Cleanse (facial)",
+      desc: "Hot towel + Deep cleanse (facial)",
       icon: "fas fa-scissors",
     },
     {
       name: "Haircut + Beard",
-      desc: "Hot Towel , Deep Cleanse (facial)",
-      icon: "fas fa-bolt",
+      desc: "Hot towel + Deep cleanse (facial)",
+      icon: "fas fa-scissors",
     },
     {
       name: "Haircut + Eyebrows",
-      desc: "Hot Towel , Deep Cleanse (facial)",
-      icon: "fas fa-bolt",
+      desc: "Hot towel + Deep cleanse (facial)",
+      icon: "fas fa-scissors",
     },
     {
       name: "Skin Fade",
-      desc: "High fade , Med fade , Low fade",
+      desc: "High fade, Med fade, Low fade",
       icon: "fas fa-user",
     },
     {
       name: "Regular Haircut",
-      desc: "Temp fade, Even sides , Line up",
+      desc: "Temp fade, Even sides, Line up",
       icon: "fas fa-scissors",
     },
     {
@@ -45,7 +45,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Facial",
-      desc: "Deep Facial Cleanse with Extractor",
+      desc: "Deep facial cleanse with extractor",
       icon: "fas fa-droplet",
     },
   ];
@@ -93,7 +93,7 @@ const Services = ({ classicHeader, darkTheme }) => {
                       >
                         <i className={service.icon} />
                       </div>
-                      <h3 className={darkTheme ? "text-white" : ""}>
+                      <h3 className={darkTheme ? "text-white text-2" : ""}>
                         {service.name}
                       </h3>
                       <p
