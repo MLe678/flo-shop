@@ -40,12 +40,12 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Kids Haircut + Design",
-      desc: "You get anywhere from class look to a fade.",
+      desc: "This includes anywhere from a classic look to a fade.",
       icon: "fas fa-child",
     },
     {
       name: "Facial",
-      desc: "You get a deep facial cleanse with extractor",
+      desc: "You get a deep facial cleanse with extractor.",
       icon: "fas fa-droplet",
     },
   ];
