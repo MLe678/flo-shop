@@ -5,47 +5,47 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "V.I.P",
-      desc: "Haircut, shampoo, conditioner, hot towel with moisturizing facial cleanse",
+      desc: "You get a haircut with a hot towel shave, moisturizer, head wash, Tea Tree shampoo conditioner, with a leave in conditioner and style.",
       icon: "fas fa-star",
     },
     {
       name: "Haircut + Color",
-      desc: "Description text",
+      desc: "Consult for booking since service time may vary. ",
       icon: "fas fa-palette",
     },
     {
       name: "Haircut + Design",
-      desc: "Hot towel + Deep cleanse (facial)",
+      desc: "You get a haircut with a freestyle design.",
       icon: "fas fa-scissors",
     },
     {
       name: "Haircut + Beard",
-      desc: "Hot towel + Deep cleanse (facial)",
+      desc: "You get a haircut and beard with hot towel.",
       icon: "fas fa-scissors",
     },
     {
       name: "Haircut + Eyebrows",
-      desc: "Hot towel + Deep cleanse (facial)",
+      desc: "You get a haircut with your eyebrows done.",
       icon: "fas fa-scissors",
     },
     {
       name: "Skin Fade",
-      desc: "High fade, Med fade, Low fade",
+      desc: "This includes high, mid, and low fades.",
       icon: "fas fa-user",
     },
     {
       name: "Regular Haircut",
-      desc: "Temp fade, Even sides, Line up",
+      desc: "This includes temp fade, even sides and line up.",
       icon: "fas fa-scissors",
     },
     {
       name: "Kids Haircut + Design",
-      desc: "Description text",
+      desc: "You get anywhere from class look to a fade.",
       icon: "fas fa-child",
     },
     {
       name: "Facial",
-      desc: "Deep facial cleanse with extractor",
+      desc: "You get a deep facial cleanse with extractor",
       icon: "fas fa-droplet",
     },
   ];
