@@ -39,10 +39,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               constantly learning new skills to improve my craft.
               <br />
               <br />
-              When I'm not working, I enjoy documentries, learning about herbal
-              medicine, watching my nephew play soccer, and spending time with
-              my family and friends. Thank you for your support and taking the
-              time to learn more about me!
+              When I'm not working, I enjoy documentaries, sightseeing, learning
+              about herbal medicine, watching my nephew play soccer, and
+              spending time with my family and friends. Thank you for your
+              support and taking the time to learn more about me!
             </p>
             <div className="image-container">
               <img src="/images/profile.png" alt="logo" />
