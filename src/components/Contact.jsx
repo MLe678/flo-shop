@@ -30,7 +30,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
         <div className="row gy-5 justify-content-center text-center">
           {/* contact details */}
           <div className="justify-content-center text-center">
-            <p className={"mb-3 text-3 " + (darkTheme ? "text-white" : "")}>
+            <p className={"mb-3 text-2 " + (darkTheme ? "text-white" : "")}>
               Located inside Salon Lofts @ Loft #15
               <br />
             </p>

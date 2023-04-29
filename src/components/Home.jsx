@@ -25,6 +25,12 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 </p>
                 <p className="text-5 text-light mb-4">
                   <p
+                    className={"text-2 mb-1 " + (darkTheme ? "text-light" : "")}
+                  >
+                    Located inside Salon Lofts @ Loft #15
+                    <br />
+                  </p>
+                  <p
                     className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}
                   >
                     <a href="http://maps.google.com/?q=5840 Roswell Rd, Atlanta, GA 30328">
