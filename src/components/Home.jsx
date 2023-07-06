@@ -48,7 +48,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                       <i className="fas fa-phone" />
                     </span>
                     <a href="tel: +1 404-750-5652">
-                      <b>404-750-5652</b>
+                      <b>404-740-5652</b>
                     </a>
                     <br />
                     <br />
